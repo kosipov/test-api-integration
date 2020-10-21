@@ -1,0 +1,14 @@
+{
+  "name": "kosipov/testapiintegration",
+  "type": "project",
+  "require": {
+    "vlucas/phpdotenv": "^5.2",
+    "guzzlehttp/guzzle": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "TestAPI\\": "src/",
+      "Tests\\": "tests/"
+    }
+  }
+}
